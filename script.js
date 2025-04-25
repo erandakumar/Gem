@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const gemstones = [
         {
             name: "Ruby",
-            image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "https://pin.it/5S5n8iInv",
             color: "Red",
             hardness: "9",
             origin: "Myanmar, Thailand, Madagascar",
