@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function() {
     // Navbar scroll effect
     window.addEventListener('scroll', function() {
@@ -30,11 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.insertAdjacentHTML('beforeend', modalHTML);
     }
 
-    // Gemstone data
+    // Gemstone data with local images
     const gemstones = [
         {
             name: "Ruby",
-            image: "https://pin.it/5S5n8iInv",
+            image: "images/Ruby.jpeg",
             color: "Red",
             hardness: "9",
             origin: "Myanmar, Thailand, Madagascar",
@@ -46,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Sapphire",
-            image: "https://pin.it/7ho0PTatV",
+            image: "images/Sapphire.jpeg",
             color: "Blue (various colors available)",
             hardness: "9",
             origin: "Sri Lanka, Madagascar, Australia",
@@ -58,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Emerald",
-            image: "https://pin.it/2owhaYpwT",
+            image: "images/Emerald.jpeg",
             color: "Green",
             hardness: "7.5-8",
             origin: "Colombia, Zambia, Brazil",
@@ -70,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Diamond",
-            image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            image: "images/Diamond.jpeg",
             color: "Colorless (various colors available)",
             hardness: "10",
             origin: "Russia, Botswana, Canada",
@@ -82,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Amethyst",
-            image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "images/Amethyst.jpeg",
             color: "Purple",
             hardness: "7",
             origin: "Brazil, Uruguay, Zambia",
@@ -94,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Topaz",
-            image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "images/Topaz.jpeg",
             color: "Yellow, Blue (various colors available)",
             hardness: "8",
             origin: "Brazil, Russia, USA",
@@ -106,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Opal",
-            image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "images/Opal.jpeg",
             color: "Multi-color (play-of-color)",
             hardness: "5.5-6.5",
             origin: "Australia, Ethiopia, Mexico",
@@ -118,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Aquamarine",
-            image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "images/Aquamarine.jpeg",
             color: "Blue-green",
             hardness: "7.5-8",
             origin: "Brazil, Pakistan, Nigeria",
