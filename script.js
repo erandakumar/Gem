@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Sapphire",
-            image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+            image: "https://pin.it/7ho0PTatV",
             color: "Blue (various colors available)",
             hardness: "9",
             origin: "Sri Lanka, Madagascar, Australia",
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Emerald",
-            image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+            image: "https://pin.it/2owhaYpwT",
             color: "Green",
             hardness: "7.5-8",
             origin: "Colombia, Zambia, Brazil",
